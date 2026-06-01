@@ -1,3 +1,18 @@
 rpc_url = "https://api.devnet.solana.com"
 key_path = "/home/akshay/.config/solana/id.json"
 min_crank_fee = 1000
+
+
+
+
+# tuktuk -u https://api.devnet.solana.com task-queue create --name counter-queue --capacity 10 --funding-amount 10000000 --queue-authority $(solana address) --min-crank-reward 100000 --stale-task-age 1000
+# {
+#   "pubkey": "7HNKdVQRMMEZeyTNxeEBdAaGPBZHVfq13vveER34KVCA",
+#   "id": 299,
+#   "capacity": 10,
+#   "update_authority": "3shLPzr2Dd4d8XShBMrcUnUUoRTf1iEmDDaTXLiBLAC3",
+#   "name": "counter-queue",
+#   "min_crank_reward": 100000,
+#   "balance": 1010000000,
+#   "stale_task_age": 1000
+# }
