@@ -31,3 +31,6 @@ main();
 //bun run index2 --queueName counter-queue1 --walletPath ~/.config/solana/id.json --rpcUrl https://api.devnet.solana.com --programId 5xLw1uD9fEM4rgayTBt1PBxR9BNL1iLfn5xXMc6XWZUq
 
 // tuktuk -u https://api.devnet.solana.com task list --task-queue-name counter-queue3
+
+//  tuktuk -u https://api.devnet.solana.com task run --task-queue-name counter-queue5 --description "increment"
+// Tx sent: 3hEXsTe5hQ9gAvd3WS8NkLQtTkefDPC6rCmsxkJVAjo1KEuQm6pWxEDmdsgBE5SG3VL4A4vWegfWzs1SqbkNZwWi
