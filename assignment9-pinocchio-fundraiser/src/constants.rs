@@ -1,0 +1,1 @@
+pub const MIN_CONTRIBUTION_AMOUNT:u64=10u64;
